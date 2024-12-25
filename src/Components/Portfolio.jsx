@@ -128,7 +128,7 @@ function Home() {
         <section id="about" className="min-h-screen">
           <div className="max-w-4xl mx-auto pt-20">
             <div className="text-center m-5">
-              <h2 className="text-3xl font-bold text-black">About Us</h2>
+              <h2 className="text-3xl font-bold text-green-500">About Us</h2>
               <p className="text-md text-gray-800 mt-4">
                 We are a team of passionate individuals dedicated to providing
                 the best services in the industry. Our mission is to deliver
@@ -171,7 +171,9 @@ function Home() {
         <section className="min-h-screen" id="services">
           <div className="max-w-4xl mx-auto pt-20">
             <div className="text-center m-5">
-              <h2 className="text-3xl font-bold text-black">Our Services</h2>
+              <h2 className="text-3xl font-bold text-green-500">
+                Our Services
+              </h2>
               <p className="text-md text-gray-800 mt-4">
                 We offer a wide range of services to meet your needs. Our team
                 is dedicated to providing top-notch solutions that help you
@@ -222,7 +224,9 @@ function Home() {
         <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700" />
 
         <section id="contact" className="min-h-screen">
-          <h1 className="text-center text-3xl font-bold p-10">Our Contact</h1>
+          <h1 className="text-center text-3xl font-bold p-10  text-green-500">
+            Our Contact
+          </h1>
           <form
             action="#"
             className="max-w-lg mx-auto bg-gray-100 p-8 rounded-lg shadow-md"
