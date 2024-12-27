@@ -1,9 +1,12 @@
+import React from "react";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiFillFacebook,
   AiFillLinkedin,
 } from "react-icons/ai";
+import villainImage from "../assets/Villain.jpg";
+
 function Home() {
   const toggleNavbar = () => {
     const navbar = document.getElementById("navbar-default");
@@ -20,7 +23,7 @@ function Home() {
         <title>Marix</title>
       </head>
 
-      <main className="bg-white px-5 md:px-20 md:text-1xl lg:px-40 xl:px-60 ">
+      <main className="px-5 md:px-20 md:text-1xl lg:px-40 xl:px-60 bg-gradient-to-br from-white to-green-500 via-white [background-position:35%_center] ">
         <section className="min-h-screen" id="home">
           <nav className="bg-white fixed top-0 left-0 w-full z-50 shadow-md ">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -96,20 +99,24 @@ function Home() {
               <h1 className="text-2xl font-medium text-black md:text-4xl">
                 Hi! everyone,{" "}
               </h1>
-              <h1 className=" text-2xl font-medium text-black md:text-4xl">
-                I'm<span className="text-4xl md:text-6xl"> Jaymar Tuba</span>
+              <h1 className=" text-2xl font-medium text-black md:text-4xl lg:text-1xl">
+                I'm
+                <span className="text-4xl md:text-6xl lg:text-5xl">
+                  {" "}
+                  Jaymar Tuba
+                </span>
               </h1>
               <p className="text-2xl font-medium text-gray-800 mb-4 text-wrap py-2 md:text-4xl">
                 Web <span className="text-green-500">Developer</span>
               </p>
-              <button className="bg-black text-white text-sm py-2 px-4 rounded cursor-pointer hover:bg-gray-800">
+              <button className="bg-black text-white text-sm py-2 px-4 rounded cursor-pointer hover:bg-gray-800 border-2 border-green-500">
                 Get Started
               </button>
             </div>
 
-            <div className="relative mx-auto w-60 h-60 overflow-hiddenflex items-end justify-center md:w-80 md:h-80 md:items-end md:justify-end">
+            <div className="relative mx-auto w-60 h-60 overflow-hiddenflex items-end justify-center md:w-80 md:h-80 md:items-end md:justify-end lg:w-95 lg:h-90 lg:items-end lg:justify-end">
               <img
-                src={`${process.env.PUBLIC_URL}/Villain.jpg`}
+                src={villainImage}
                 className="w-full h-full object-cover rounded-full"
                 alt="Villain"
               />
