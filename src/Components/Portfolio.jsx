@@ -94,12 +94,12 @@ function Home() {
   
           <main className="px-5 md:px-10 md:text-1xl lg:px-40 xl:px-60 bg-gray-300 dark:bg-gray-300">
             <section className="min-h-screen" id="home">
-              <div className="flex flex-col  items-center justify-center s: pt-5 xs:pt-32 md:gap-60  md:flex-row min-h-screen md:pb-28 lg:flex-row ">
+              <div className="flex flex-col  items-center justify-center s: pt-5 xs:pt-30 md:gap-60  md:flex-row min-h-screen md:pb-28 lg:flex-row ">
                 <div className="md:p-5 md:items-center md:justify-center ">
                   <h1 className="text-2xl font-medium text-black md:text-4xl">
                     Hi! everyone,{" "}
                   </h1>
-                  <h1 className=" text-2xl font-medium text-black md:text-4xl lg:text-1xl">
+                  <h1 className=" text-2xl font-medium text-black xs:text-xl md:text-4xl lg:text-1xl">
                     I'm
                     <span className="text-4xl md:text-6xl lg:text-5xl">
                       {" "}
@@ -109,15 +109,15 @@ function Home() {
                   <p className="text-2xl font-medium text-black mb-4 text-wrap py-2 md:text-4xl">
                     Web <span className="text-green-500">Developer</span>
                   </p>
-                  <button className="bg-black text-white text-sm py-2 px-4 rounded cursor-pointer hover:bg-gray-800 border-2 border-green-500">
+                  <button className="bg-black text-white text-sm py-2 px-4 rounded cursor-pointer hover:bg-gray-800 border-2 border-green-500 xs:p-2 xs:text-sm">
                     Get Started
                   </button>
                 </div>
-                <div className="relative flex items-center justify-center xs:w-45 h-45 md:w-80 md:h-80 md:items-end md:justify-end lg:w-95 lg:h-90 lg:items-end lg:justify-end">
+                <div className="relative flex items-center justify-center xs:relative top-10 xs:w-45 h-45 md:w-80 md:h-80 md:items-end md:justify-end lg:w-95 lg:h-90 lg:items-end lg:justify-end">
                   <Lottie animationData={CodingAnimation} />
                 </div>
               </div>
-              <div className=" flex justify-center gap-16 py-10 text-green-500 xs:text-2xl md:relative bottom-20 md:text-2xl ">
+              <div className=" flex justify-center gap-16 py-10 text-green-500 xs:gap-10 xs:text-xl md:relative bottom-20 md:text-2xl ">
                 <AiFillTwitterCircle className="hover:text-gray-800" />
                 <AiFillGithub className="hover:text-gray-800" />
                 <AiFillFacebook className="hover:text-gray-800" />
@@ -129,7 +129,7 @@ function Home() {
   
             <section id="about" className="min-h-screen">
               <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto flex flex-col">
+                <div className="container px-5 py-24 mx-auto flex flex-col xs:py-5">
                   <div className="lg:w-4/6 mx-auto">
                     <div className="flex flex-col sm:flex-row mt-10 ">
                       <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8 ">
@@ -142,12 +142,12 @@ function Home() {
                           </h2>
                           <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4 cursor-pointer"></div>
                           <p className="text-base">
-                            Web Developer based in the Philippines
+                            Web Developer
                           </p>
                         </div>
                       </div>
-                      <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-500 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                        <p className="leading-relaxed text-lg mb-4 pt-5 pl-10">
+                      <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-500 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left ">
+                        <p className="leading-relaxed text-lg mb-4 pt-5 pl-10 xs:text-sm xs:p-5">
                           I'm a web developer based in the Philippines. I have a
                           passion for web development and love to create websites
                           that are not only visually appealing but also highly
@@ -160,7 +160,7 @@ function Home() {
                         </p>
                         <a
                           href="#contact"
-                          className="text-indigo-500 inline-flex items-center pl-10"
+                          className="text-indigo-500 inline-flex items-center pl-10 xs:p-0"
                         >
                           Learn More
                           <svg
@@ -185,11 +185,11 @@ function Home() {
             <hr className="h-px bg-gray-200 border-0 dark:bg-black xs:relative top-8  " />
   
             <section className="min-h-screen" id="services">
-              <div className="container px-5 py-20 mx-auto flex flex-wrap">
-                <div className=" pt-20 lg:w-1/2  mb-10  lg:mb-0 rounded-lg overflow-hidden">
+              <div className="container px-5 py-20 mx-auto flex flex-wrap xs:py-0" >
+                <div className=" pt-20 lg:w-1/2  mb-10  lg:mb-0 rounded-lg overflow-hidden xs:pt-10">
                   <Lottie animationData={WebDeveloperAnimation} />
                 </div>
-                <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+                <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center xs:pb-0">
                   <div className="flex flex-col mb-10 lg:items-start items-center">
                     <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                       <svg
