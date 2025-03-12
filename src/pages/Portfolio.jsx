@@ -9,7 +9,7 @@ import {
 import WebDeveloperAnimation from "../assets/WebDeveloperAnimation.json";
 import ContactUs from "../assets/contactUs.json";
 import CodingAnimation from "../assets/CodingAnimation.json";
-import SamplePic from "../assets/samplePic.jpg";
+import Me from "../assets/Me.jpg";
 
 function Home() {
   const toggleNavbar = () => {
@@ -101,13 +101,13 @@ function Home() {
               </h1>
               <h1 className=" text-2xl font-medium text-black xs:text-xl md:text-4xl lg:text-1xl">
                 I'm
-                <span className="text-4xl md:text-6xl lg:text-5xl">
+                <span className=" text-4xl md:text-6xl lg:text-5xl">
                   {" "}
                   Jaymar Tuba
                 </span>
               </h1>
               <p className="text-2xl font-medium text-black mb-4 text-wrap py-2 md:text-4xl">
-                Web <span className="text-green-500">Developer</span>
+                FrontEnd <span className="text-green-500">Developer</span>
               </p>
               <button className="bg-black text-white text-sm py-2 px-4 rounded cursor-pointer hover:bg-gray-800 border-2 border-green-500 xs:p-2 xs:text-sm">
                 Get Started
@@ -134,7 +134,7 @@ function Home() {
                 <div className="flex flex-col sm:flex-row mt-10 ">
                   <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8 ">
                     <div className="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 ">
-                      <img src={SamplePic} alt="SamplePic" />
+                      <img src={Me} alt="myPic" />
                     </div>
                     <div className="flex flex-col items-center text-center justify-center">
                       <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">

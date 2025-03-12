@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-      xs:{min:"320px",max:"374px"},
+        xs: { min: "320px", max: "374px" },
         // => @media (min-width: 375px) { ... }
 
         s: "425px",
@@ -23,6 +23,10 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
 
         "2xl": "1536px",
+      },
+      anime: {
+        targets: ".hero",
+        translateX: 250,
       },
     },
   },
