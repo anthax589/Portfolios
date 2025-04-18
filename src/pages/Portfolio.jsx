@@ -99,7 +99,7 @@ function Home() {
               <h1 className="text-2xl font-medium text-black md:text-4xl">
                 Hi! everyone,{" "}
               </h1>
-              <h1 className=" text-2xl font-medium text-black xs:text-xl md:text-4xl lg:text-1xl">
+              <h1 className=" text-2xl font-medium text-black xs:text-2xl md:text-4xl lg:text-1xl">
                 I'm
                 <span className=" text-4xl md:text-6xl lg:text-5xl">
                   {" "}
@@ -107,7 +107,7 @@ function Home() {
                 </span>
               </h1>
               <p className="text-2xl font-medium text-black mb-4 text-wrap py-2 md:text-4xl">
-                FrontEnd <span className="text-green-500">Developer</span>
+                Web <span className="text-green-500">Developer</span>
               </p>
               <button className="bg-black text-white text-sm py-2 px-4 rounded-lg cursor-pointer hover:bg-gray-800 border-2 border-green-500 xs:p-2 xs:text-sm">
                 Get Started
