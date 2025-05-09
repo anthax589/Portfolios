@@ -15,7 +15,6 @@ import { SiXdadevelopers } from "react-icons/si";
 import { GrVmMaintenance } from "react-icons/gr";
 import { GrOptimize } from "react-icons/gr";
 
-
 function Home() {
   const toggleNavbar = () => {
     const navbar = document.getElementById("navbar-default");
@@ -97,7 +96,7 @@ function Home() {
         </div>
       </nav>
 
-      <main className="px-5 md:px-10 md:text-1xl lg:px-40 xl:px-60 bg-[#DFE8E6] dark:bg-[#ffebd0]">
+      <main className="px-5 md:px-10 md:text-1xl lg:px-40 xl:px-60 bg-[#ffebd0]">
         <section className="min-h-screen" id="home">
           <div className="flex flex-col  items-center justify-center s: py-14 xs:pt-30 md:gap-60  md:flex-row min-h-screen md:pb-28 lg:flex-row ">
             <div className="md:p-5 md:items-center md:justify-center ">
