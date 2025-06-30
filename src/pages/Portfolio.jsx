@@ -131,14 +131,14 @@ function Home() {
 
         <hr className="h-px bg-white border-0 dark:bg-black xs: relative top-0 " />
 
-        <section id="about" className="min-h-screen">
+        <section id="about" className="min-h-screen flex items-center justify-center">
           <section className="text-[#278783] body-font">
-            <div className="container px-5 py-24 mx-auto flex flex-cols xs:py-5 s:py-5">
+            <div className="container px-5 py-24 mx-auto flex flex-cols xs:py-5 s:py-5 justify-center items-center">
               <div className="lg:w-4/6 mx-auto">
-                <div className="flex flex-col sm:flex-row mt-10 ">
-                  <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8 ">
+                <div className="flex flex-col sm:flex-row sm:justify-center mt-10 ">
+                  <div className="sm:w-1/3 flex flex-col justify-center items-center text-center sm: sm:py-8 space-y-10">
                     <div className="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 ">
-                      <img src={SamplePic} alt="myPic" />
+                      <img src={SamplePic} alt="myPic" className="rounded-2xl" />
                     </div>
                     <div className="flex flex-col items-center text-center justify-center">
                       <h2 className="font-medium title-font mt-4 text-[#278783] text-lg">
@@ -176,13 +176,13 @@ function Home() {
 
         <hr className="h-px bg-gray-200 border-0 dark:bg-black xs:relative top-8  " />
 
-        <section className="min-h-screen" id="services">
+        <section className="min-h-screen flex justify-center items-center" id="services">
           <div className="container px-5 py-20 mx-auto flex flex-wrap xs:py-0 s:py-0">
-            <div className=" pt-20 lg:w-1/2  mb-10  lg:mb-0 rounded-lg overflow-hidden xs:pt-10 s:pt-0">
+            <div className="flex justify-center lg:w-1/2  mb-10  lg:mb-0 rounded-lg overflow-hidden xs:pt-10 s:pt-0">
               <Lottie animationData={WebDeveloperAnimation} />
             </div>
-            <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center xs:pb-0 s:pb-10 ">
-              <div className="flex flex-col mb-10 lg:items-start items-center border-2 border-[#278783] rounded-lg p-5">
+            <div className="flex flex-col flex-wrap  lg:py-6  lg:w-1/2 lg:pl-12 lg:text-left text-center xs:pb-0 s:pb-10 space-y-10 ">
+              <div className="flex flex-col  lg:items-start items-center border-2 border-[#278783] rounded-lg p-5">
                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                   <SiXdadevelopers className="w-6 h-6 text-[#278783]" />
                 </div>
@@ -199,7 +199,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col mb-10 lg:items-start items-center border-2 border-[#278783] rounded-lg p-5">
+              <div className="flex flex-col  lg:items-start items-center border-2 border-[#278783] rounded-lg p-5">
                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                   <GrVmMaintenance className="w-6 h-6 text-[#278783]" />
                 </div>
@@ -216,7 +216,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col mb-10 lg:items-start items-center border-2 border-[#278783] rounded-lg p-5">
+              <div className="flex flex-col  lg:items-start items-center border-2 border-[#278783] rounded-lg p-5">
                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                   <GrOptimize className="w-6 h-6 text-[#278783]" />
                 </div>
